@@ -28,7 +28,7 @@ else
     git checkout "temp"
 fi
 
-first_SHA=`git log --abbrev-commit --pretty=oneline --reverse | head -1 | cut -d ' ' -f1`
+first_SHA=`git log --abbrev-commit --pretty=oneline --grep="Initial checkpoint" | head -1 | cut -d ' ' -f1`
 target_SHA=`git log --abbrev-commit --pretty=oneline --grep="${search_term}" | cut -d ' ' -f1` 
 
 echo $target_SHA
