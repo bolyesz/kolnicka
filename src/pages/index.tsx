@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Hero from '../sections/Hero';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col flex-grow justify-center">
-        <h1 className="text-6xl">Ahoj Kôlnička!</h1>
+        <Hero />
       </main>
 
       <footer className="flex w-full h-24 border-gray-400 border-t justify-center items-center">
