@@ -28,8 +28,8 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "object-shorthand": "warn",
     "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "warn"
   }
 }
