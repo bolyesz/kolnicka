@@ -28,9 +28,11 @@ else
     git checkout "temp"
 fi
 
-first_SHA=`git log control --abbrev-commit --pretty=oneline --grep="Initial checkpoint"| cut -d ' ' -f1`
-target_SHA=`git log control --abbrev-commit --pretty=oneline --grep="${search_term}" | cut -d ' ' -f1` 
+git reset --hard
+
+first_SHA=`git log origin/control --abbrev-commit --pretty=oneline --grep="Checkpoint 1 " | cut -d ' ' -f1`
+target_SHA=`git log origin/control --abbrev-commit --pretty=oneline --grep="${search_term} " | cut -d ' ' -f1` 
 
 echo $target_SHA
 
-git cherry-pick $first_SHA^..$target_SHA
+git cherry-pick -n $first_SHA^..$target_SHA
