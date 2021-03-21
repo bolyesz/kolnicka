@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import InfoBar from '../components/InfoBar';
+import Subtitle from '../components/Subtitle';
 
 function Hero() {
   return (
@@ -15,7 +16,7 @@ function Hero() {
         />
       </div>
       <div className="flex flex-col items-center lg:items-start lg:w-4/6">
-        <h2 className="text-4xl font-bold py-3 text-pink-500">Michal Sojka</h2>
+        <Subtitle subtitle="Michal Sojka" />
         <InfoBar
           infos={[
             { label: 'sojka@cngroup.dk', link: 'mailto:sojka@cngroup.dk' },
