@@ -12,14 +12,18 @@ type InfoItem = {
 
 function InfoBar({ infos }: Props) {
   return (
-    <div>
+    <div className="flex flex-row flex-wrap justify-center">
       {infos.map((info, index) => {
         const hasPipe = index !== infos.length - 1;
 
         if (info.link) {
           return (
             <InfoBarItem key={index} hasPipe={hasPipe}>
-              <a href={info.link} title={info.label}>
+              <a
+                className="hover:underline"
+                href={info.link}
+                title={info.label}
+              >
                 {info.label}
               </a>
             </InfoBarItem>
