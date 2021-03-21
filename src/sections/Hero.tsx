@@ -19,6 +19,22 @@ function Hero() {
           { label: 'GitHub', link: 'https://github.com/Majky336' },
         ]}
       />
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non soluta
+        aut debitis eius laudantium labore aliquid. Ex dolor dolorem minus
+        explicabo ad maxime atque velit ut tempora porro placeat quae quidem,
+        consequatur, magni a vero veritatis ullam ab quaerat molestiae
+        laudantium distinctio delectus repellat quo! Facilis voluptatibus
+        laboriosam odio?
+      </div>
+      <InfoBar
+        infos={[
+          { label: 'Vajanského 21' },
+          { label: '984 01' },
+          { label: 'Lučenec' },
+          { label: 'Slovakia' },
+        ]}
+      />
     </div>
   );
 }
