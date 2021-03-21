@@ -1,5 +1,4 @@
 import React from 'react';
-
 import SkillIndicator from './SkillIndicator';
 import { Skill } from '../types';
 
