@@ -13,5 +13,10 @@
   ],
   "files.associations": {
     ".prettierrc": "yaml"
-  }
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "typescript": "javascript"
+  },
+  "css.validate": false
 }
