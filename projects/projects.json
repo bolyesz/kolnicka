@@ -5,9 +5,14 @@
     "position": "Trainee Architect 3000",
     "company": "CN Group",
     "description": "Innovation, R&D and long-term service delivery in Bespoke Software Development, Quality Assurance, Added Value IT Consulting and Mechanical Design Engineering",
-    "timeStart": "03/10/2006",
-    "timeEnd": "24/12/2018",
-    "technologies": ["CSS", "React", "HTML", "JavaScript", "MySQL", "Git"]
+    "timeStart": "2006-03-10",
+    "timeEnd": "2012-11-24",
+    "technologies": ["CSS", "React", "HTML", "JavaScript", "MySQL", "Git"],
+    "images": [
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg"
+    ]
   },
   {
     "id": "sky-is-the-limit",
@@ -15,8 +20,8 @@
     "position": "Junior Architect 5000",
     "company": "Filip Horvath",
     "description": "Description not needed. Take a look at technologies. Kneel before me.",
-    "timeStart": "10/09/2019",
-    "timeEnd": "20/10/2020",
+    "timeStart": "2019-03-09",
+    "timeEnd": "2020-10-20",
     "technologies": [
       "AWS",
       "React",
@@ -32,6 +37,11 @@
       "S3",
       "Scalable",
       "Scalable Docker"
+    ],
+    "images": [
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg"
     ]
   },
   {
@@ -40,8 +50,8 @@
     "position": "Medium Architect 7000",
     "company": "Sweets and Diabetes",
     "description": "After this job I got Diabetes. Not sweet.",
-    "timeStart": "03/11/2029",
-    "timeEnd": "12/11/2021",
+    "timeStart": "2019-11-29",
+    "timeEnd": "2021-11-12",
     "technologies": [
       "Cake",
       "Twix",
@@ -51,6 +61,11 @@
       "JawCrusher",
       "Megatron",
       "Optimus Prime"
+    ],
+    "images": [
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg"
     ]
   },
   {
@@ -59,8 +74,13 @@
     "position": "Super Architect 9000",
     "company": "Enrich Garden Services",
     "description": "01010100 01101111 01101111 00100000 01101100 01100001 01111010 01111001 00100000 01110100 01101111 00100000 01100011 01110010 01100101 01100001 01110100 01100101 00100000 01110011 01101111 01101101 01100101 00100000 01100100 01100101 01110011 01100011 01110010 01101001 01110000 01110100 01101001 01101111 01101110",
-    "timeStart": "25/05/2021",
-    "timeEnd": "16/07/2021",
-    "technologies": ["Binary"]
+    "timeStart": "2021-05-25",
+    "timeEnd": "2021-07-16",
+    "technologies": ["Binary"],
+    "images": [
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg",
+      "/images/ProjectShowcase.jpg"
+    ]
   }
 ]

@@ -7,6 +7,7 @@ export type Project = {
   timeStart: string;
   timeEnd: string;
   technologies: string[];
+  images: string[];
 };
 
 export type Skill = {
