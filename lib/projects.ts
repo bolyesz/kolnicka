@@ -1,9 +1,20 @@
 import projects from '../projects/projects.json';
 
 export function getAllProjectIds() {
-  return {};
+  return projects.map((project) => {
+    return {
+      params: {
+        id: project.id,
+      },
+    };
+  });
 }
 
-export function getProjectData(id: string | undefined) {
-  return {};
+export function getProjectData(id: undefined | string) {
+  const project = projects.find((project) => project.id === id);
+
+  return {
+    id,
+    ...project,
+  };
 }
