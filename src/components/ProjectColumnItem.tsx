@@ -16,7 +16,7 @@ function ProjectColumnItem({ alignment, project }: Props) {
 
   return (
     <div className={`text-center mb-8 ${margin}`}>
-      <Link href={`projects/${project.id}`}>
+      <Link href={`/projects/${project.id}`}>
         <a className="font-bold text-lg text-pink-500 hover:underline leading-10">
           {project.name}
         </a>
