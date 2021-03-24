@@ -1,4 +1,4 @@
-import projects from '../projects/projects.json';
+import projects from '../data/projects.json';
 
 export function getAllProjectIds() {
   return projects.map((project) => {
@@ -10,7 +10,7 @@ export function getAllProjectIds() {
   });
 }
 
-export function getProjectData(id: undefined | string) {
+export function getProjectData(id: string) {
   const project = projects.find((project) => project.id === id);
 
   return {

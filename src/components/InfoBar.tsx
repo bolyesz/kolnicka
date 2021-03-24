@@ -1,13 +1,10 @@
 import React from 'react';
+
+import { InfoItem } from '../types';
 import InfoBarItem from './InfoBarItem';
 
 type Props = {
   infos: InfoItem[];
-};
-
-type InfoItem = {
-  label: string;
-  link?: string;
 };
 
 function InfoBar({ infos }: Props) {

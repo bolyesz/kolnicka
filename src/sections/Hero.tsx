@@ -9,7 +9,7 @@ function Hero() {
       <div className="flex justify-center lg:w-2/6">
         <Image
           className="rounded-full"
-          src="/images/HeroHerold.jpeg"
+          src="/images/harold-profile.jpg"
           alt="Profile picture"
           width={250}
           height={250}

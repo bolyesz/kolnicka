@@ -1,8 +1,8 @@
+import { MAX_NO_ITEMS } from '../consts';
+
 type Props = {
   skillLevel: number;
 };
-
-const MAX_NO_ITEMS = 10;
 
 function SkillIndicator({ skillLevel }: Props) {
   return (

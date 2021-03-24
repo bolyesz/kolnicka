@@ -14,3 +14,8 @@ export type Skill = {
   name: string;
   level: number;
 };
+
+export type InfoItem = {
+  label: string;
+  link?: string;
+};

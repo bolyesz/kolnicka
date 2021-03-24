@@ -9,9 +9,9 @@
     "timeEnd": "2012-11-24",
     "technologies": ["CSS", "React", "HTML", "JavaScript", "MySQL", "Git"],
     "images": [
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg"
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg"
     ]
   },
   {
@@ -39,9 +39,9 @@
       "Scalable Docker"
     ],
     "images": [
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg"
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg"
     ]
   },
   {
@@ -63,9 +63,9 @@
       "Optimus Prime"
     ],
     "images": [
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg"
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg"
     ]
   },
   {
@@ -78,9 +78,9 @@
     "timeEnd": "2021-07-16",
     "technologies": ["Binary"],
     "images": [
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg",
-      "/images/ProjectShowcase.jpg"
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg",
+      "/images/project-showcase.jpg"
     ]
   }
 ]

@@ -1,6 +1,7 @@
 import React from 'react';
-import SkillIndicator from './SkillIndicator';
+
 import { Skill } from '../types';
+import SkillIndicator from './SkillIndicator';
 
 type Props = {
   skill: Skill;
