@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import InfoBar from '../components/InfoBar';
+import Subtitle from '../components/Subtitle';
 
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
         />
       </div>
       <div className="flex flex-col lg:w-2/3 items-center lg:items-start">
-        <h2 className="text-4xl font-bold text-pink-500 pb-3">Michal Sojka</h2>
+        <Subtitle subtitle="Michal Sojka" />
         <InfoBar
           infos={[
             {
