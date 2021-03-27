@@ -8,7 +8,7 @@ type Props = {
 
 function InfoBar({ infos }: Props) {
   return (
-    <div>
+    <div className="flex flex-wrap justify-center lg:justify-start">
       {infos.map((info, index) => {
         const hasPipe = index !== infos.length - 1;
 
